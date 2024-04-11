@@ -1,5 +1,9 @@
-export default function Header() {
+import Breadcrumbs from "../components/commons/Breadcrumbs"
+
+
+export default function About() {
     return <section>
-        Mail
+        <Breadcrumbs></Breadcrumbs>
+        <div>Hello world</div>
     </section>
 }

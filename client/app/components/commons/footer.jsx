@@ -243,8 +243,8 @@ export default function Footer() {
           </div>
       
           <div className="mt-8 border-t border-gray-100 pt-8">
-            <div className="sm:flex sm:justify-between">
-              <p className="text-xs text-gray-500">&copy; 2022. Company Name. All rights reserved.</p>
+            <div className="sm:flex sm:justify-center">
+              <p className="text-xs text-gray-500">&copy; 2024. Alupipe. All rights reserved.</p>
             </div>
           </div>
         </div>

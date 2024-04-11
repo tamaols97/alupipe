@@ -3,6 +3,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 import Footer from "./components/commons/footer";
+import Header from "./components/commons/Header"
 
 export const metadata = {
   title: "Create Next App",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Header />
         {children}
         <Footer />
       </body>
