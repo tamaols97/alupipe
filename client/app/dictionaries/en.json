@@ -1,3 +1,5 @@
 {
-    
+    "homepage": {
+        "test": "Hello world"
+    }
 }
