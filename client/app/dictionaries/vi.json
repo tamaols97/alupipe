@@ -1,5 +1,17 @@
 {
     "homepage": {
         "test": "Chào thế giới"
+    },
+    "products": {
+        "all_products": {
+            "alu": {
+                "slug": "alu",
+                "name": "alu material"
+            },
+            "sadex": {
+                "slug": "sadex",
+                "name": "sadex material"
+            }
+        }
     }
 }
