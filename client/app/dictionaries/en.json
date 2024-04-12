@@ -116,12 +116,15 @@
         ]
     },
     "hero": {
-        "title": "Manufacturer & Distributor Exclusive products STEEL ANTI-STEEL SHEET",
-        "brief": "Products from leading companies in VIETNAM and KOREA"
+        "title": "Manufacturer & Distributor Exclusive products",
+        "title_bold": "STEEL ANTI-STEEL SHEET",
+        "brief": "Products from leading companies in VIETNAM and KOREA",
+        "button_products": "ALL PRODUCTS",
+        "button_contact": "CONTACT NOW"
     },
     "footer": {
         "about": "ALUPIPE HAS BEEN INTRODUCTION AS A LEADING DISTRIBUTOR OF COMPLEX ALUMINUM PLASTIC SHEET PRODUCTS AND ANTI-STEEL PRODUCTS IN KOREA AND VIETNAM.",
-        "pages": [
+        "columns": [
             {
                 "title": "Pages",
                 "items": [
@@ -161,9 +164,35 @@
                 ]
             },
             {
-                "title": "Peoples in charge"
+                "title": "News",
+                "items": [
+                    {
+                        "title": "All our news",
+                        "href": "/news"
+                    }
+                ]
+            },
+            {
+                "title": "Helpful links",
+                "items": [
+                    {
+                        "title": "Alcotop Catalog",
+                        "href": "/news"
+                    },
+                    {
+                        "title": "Dongyang catalog",
+                        "href": "/news"
+                    },                    {
+                        "title": "Pvpipe catalog",
+                        "href": "/news"
+                    },                    {
+                        "title": "Husteel catalog",
+                        "href": "/news"
+                    }
+                ]
             }
-        ]
+        ],
+        "incharge_title": "Our information"
     },
     "homepage": {
         "manufactures": {
@@ -189,17 +218,20 @@
                 {
                     "picture": "",
                     "title": "Company Profile (pdf)",
-                    "href": ""
+                    "href": "",
+                    "image": ""
                 },
                 {
                     "picture": "",
                     "title": "Company Profile (pdf)​",
-                    "href": ""
+                    "href": "",
+                    "image": ""
                 },
                 {
                     "picture": "",
                     "title": "Company Profile (pdf)​",
-                    "href": ""
+                    "href": "",
+                    "image": ""
                 },
                 {
                     "picture": "",
@@ -214,7 +246,22 @@
         },
         "outstanding_projects": {
             "title": "Some outstanding projects",
-            "button": "READ MORE"
+            "sub_title": "It's our pleasure to serve",
+            "button": "READ MORE",
+            "items": [
+                {
+                    "href": "",
+                    "name": "SAI GON BINH AN"
+                },
+                {
+                    "href": "",
+                    "name": "COBI TOWER"
+                },
+                {
+                    "href": "",
+                    "name": "EMPIRE CITY"
+                }
+            ]
         }
     },
     "about_us": {    

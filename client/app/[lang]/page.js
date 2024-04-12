@@ -9,13 +9,14 @@ import OutstandingProjects from "../components/home/outstanding_projects"
 export default async function Home({ params: { lang } }) {
   const dict = await getDictionary(lang)
   
+  
   return (
     <>
-      <Hero></Hero>
-      <Intro></Intro>
-      <Manufactures></Manufactures>
-      <Customers></Customers>
-      <OutstandingProjects></OutstandingProjects>
+      <Hero dict={dict}></Hero>
+      <Intro dict={dict}></Intro>
+      <Manufactures dict={dict}></Manufactures>
+      <Customers dict={dict}></Customers>
+      <OutstandingProjects dict={dict}></OutstandingProjects>
       <p>{dict.homepage.test}</p>
       <LangSwitcher></LangSwitcher>
     </>

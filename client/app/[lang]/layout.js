@@ -16,7 +16,7 @@ export default function RootLayout({ children, params: { lang } }) {
       <body className={inter.className}>
         <Header />
         {children}
-        <Footer />
+        <Footer lang={lang} />
       </body>
     </html>
   );

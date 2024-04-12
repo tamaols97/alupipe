@@ -1,17 +1,521 @@
 {
+    "basis": {
+        "logo": "Logo_80x79.png",
+        "name": "Alupipe",
+        "phone": "+84857489576",
+        "address": "Số 16, đường số 04, Khu Dân Cư Him Lam, Quận 07, Tp. Hồ Chí Minh",
+        "incharge": [
+            {
+                "name": "Mr Đạt – GENERAL DIRECTOR",
+                "phone": "+84 857 489 576",
+                "mail": "dattt@alupipe.com.vn"
+            },
+            {
+                "name": "Mr Phụ – SALES & MARKETING DIRECTOR",
+                "phone": "+84 915 046 374",
+                "mail": "phuln@alupipe.com.vn"
+            }
+        ]
+    },
+    "header": {
+        "menu": [
+            { 
+                "title": "About",
+                "link": "/about"
+            },
+            { 
+                "title": "News",
+                "link": "/news"
+            },
+            { 
+                "title": "Projects",
+                "link": "/projects"
+            },
+            { 
+                "title": "Products",
+                "link": "/products",
+                "items": [
+                    {
+                        "title": "ALCOTOP",
+                        "sub": [
+                            {
+                                "title": "PE-ALCOTOP",
+                                "link": "/products/PE-ALCOTOP"
+                            },
+                            {
+                                "title": "FR-ALCOTOP",
+                                "link": "/products/FR-ALCOTOP"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "DONG YANG STEEL PIPE",
+                        "sub": [
+                            {
+                                "title": "STEEL PIPE FOR PIPING",
+                                "link": "/products/STELL-PIPE-FOR-PIPING"
+                            },
+                            {
+                                "title": "STRUCTURAL STEEL PIPE",
+                                "link": "/products/STRUCTURAL-STEEL-PIPE"
+                            },
+                            {
+                                "title": "STEEL PIPE PILE",
+                                "link": "/products/STEEL-PIPE-PILE"
+                            },
+                            {
+                                "title": "SQUARE PIPE",
+                                "link": "/products/SQUARE-PIPE"
+                            },
+                            {
+                                "title": "COATED PIPE",
+                                "link": "/products/COATED-PIPE"
+                            },
+                            {
+                                "title": "HEAT TREATMENT",
+                                "link": "/products/HEAT-TREATMENT"
+                            }
+                        ]
+                    },
+
+                    { 
+                        "title": "PV PIPE",
+                        "sub": [
+                            {
+                                "title": "STEEL PIPE FOR PIPING",
+                                "link": "/products/STELL-PIPE-FOR-PIPING"
+                            },
+                            {
+                                "title": "STRUCTURAL STEEL PIPE",
+                                "link": "/products/STRUCTURAL-STEEL-PIPE"
+                            },
+                            {
+                                "title": "STEEL PIPE PILE",
+                                "link": "/products/STEEL-PIPE-PILE"
+                            },
+                            {
+                                "title": "SQUARE PIPE",
+                                "link": "/products/SQUARE-PIPE"
+                            },
+                            {
+                                "title": "COATED PIPE",
+                                "link": "/products/COATED-PIPE"
+                            },
+                            {
+                                "title": "HEAT TREATMENT",
+                                "link": "/products/HEAT-TREATMENT"
+                            }
+                        ]
+                    },
+                    { 
+                        "title": "STEEL PIPE HUSTEEL KOREA",
+                        "link": "/products/STEEL-PIPE-HUSTEEL-KOREA"
+                    }
+                ]
+            }
+        ]
+    },
+    "hero": {
+        "title": "Nhà sản xuất & phân phối độc quyền các sản phẩm",
+        "title_bold": "TẤM ỐP, ỐNG THÉP",
+        "brief": "Sản phẩm từ các công ty hàng đầu ở VIỆT NAM và HÀN QUỐC",
+        "button_products": "Danh mục sản phẩm",
+        "button_contact": "Liên lạc"
+    },
+    "footer": {
+        "about": "Nhà sản xuất & phân phối độc quyền các sản phẩm TẤM ỐP, ỐNG THÉP",
+        "columns": [
+            {
+                "title": "Sơ đồ trang",
+                "items": [
+                    {
+                        "title": "Trang chủ",
+                        "href": "/"
+                    },
+                    {
+                        "title": "Về chúng tôi",
+                        "href": "/about"
+                    },
+                    {
+                        "title": "Tin tức",
+                        "href": "/news"
+                    },
+                    {
+                        "title": "Chúng tôi tham gia các dự án",
+                        "href": "/projects"
+                    },
+                    {
+                        "title": "Sản phẩm",
+                        "href": "/products"
+                    },
+                    {
+                        "title": "Liên hệ",
+                        "href": "/contact"
+                    }
+                ]
+            },
+            {
+                "title": "Danh mục sản phẩm",
+                "items": [
+                    {
+                        "title": "Tất cả sản phẩm",
+                        "href": "/products"
+                    }
+                ]
+            },
+            {
+                "title": "Tin tức",
+                "items": [
+                    {
+                        "title": "Tất cả tin tức",
+                        "href": "/news"
+                    }
+                ]
+            },
+            {
+                "title": "Resource khác",
+                "items": [
+                    {
+                        "title": "Alcotop Catalog",
+                        "href": "/"
+                    },
+                    {
+                        "title": "Dongyang catalog",
+                        "href": "/"
+                    },                    {
+                        "title": "Pvpipe catalog",
+                        "href": "/"
+                    },                    {
+                        "title": "Husteel catalog",
+                        "href": "/"
+                    }
+                ]
+            }
+        ],
+        "incharge_title": "Thông tin liên hệ"
+    },
     "homepage": {
-        "test": "Chào thế giới"
+        "manufactures": {
+            "sub_title": "Vật liệu độc quyền từ",
+            "title": "Các nhà sản xuất chúng tôi hợp tác",
+            "items": [
+                {
+                    "picture": "",
+                    "title": "ALCOTOP"
+                },
+                {
+                    "picture": "",
+                    "title": "DONG YANG STEEL PIPE"
+                },
+                {
+                    "picture": "",
+                    "title": "HUSTEEL PIPE"
+                },
+                {
+                    "picture": "",
+                    "title": "PV PIPE"
+                },
+                {
+                    "picture": "",
+                    "title": "Company Profile (pdf)",
+                    "href": ""
+                },
+                {
+                    "picture": "",
+                    "title": "Company Profile (pdf)",
+                    "href": ""
+                },
+                {
+                    "picture": "",
+                    "title": "Company Profile (pdf)​",
+                    "href": ""
+                },
+                {
+                    "picture": "",
+                    "title": "Company Profile (pdf)​",
+                    "href": ""
+                }
+            ]
+        },
+        "customers": {
+            "sub_title": "Khác hàng",
+            "title": "Đã sử dụng ống thép của ALUPIPE"
+        },
+        "outstanding_projects": {
+            "title": "Một số dự án nổi bật",
+            "sub_title": "It's our pleasure to serve",
+            "button": "Xem thêm",
+            "items": [
+                {
+                    "href": "",
+                    "name": "SAI GON BINH AN"
+                },
+                {
+                    "href": "",
+                    "name": "COBI TOWER"
+                },
+                {
+                    "href": "",
+                    "name": "EMPIRE CITY"
+                }
+            ]
+        }
+    },
+    "about_us": {    
+        "sub_title": "Về chúng tôi",
+        "title": "Về ALUPIPE",
+        "content": [
+            "ALUPIPE is the exclusive manufacturer and distributor of aluminum composite panel products and top quality steel pipe products in KOREA and VIETNAM. The main products we are producing and distributing exclusively include:",
+            "1 ALUMINUM COMPOSITE PANEL – ALUMINUM COMPOSITE PANEL BRAND “ALCOTOP”",
+            "2 STEEL TUBE PRODUCTS",
+            "- LONGITUDINAL SUBMERGED ARC WELDING PIPE (LSAW) MANUFACTURED BY PETROVIETNAM STEEL PIPE JOINT STOCK COMPANY (PV PIPE)",
+            "- WELDED STEEL PIPE, FLEXIBLE WELDING, PIPE CONNECTION SERVICE (INNER AND OUTSIDE) MANUFACTURED BY DONGYANG STEEL PIPE COMPANY – KOREA",
+            "- ERW-HFW WELDED STEEL PIPE (Round, Square, RUBBER) MANUFACTURED BY HUSTEEL COMPANY – KOREA.",
+            "3 PRODUCTS OF STEEL SHEET, STEEL…"
+        ],
+        "button": "READ MORE",
+        "product_button": "VIEW PRODUCTS",
+        "manufacture_coporate": {
+            "title": "Manufactures that coporate with us"
+        }
+    },
+    "projects": {
+        "sub_title": "Dự án",
+        "title": "Các dự án nổi bật ALUPIPE đã tham gia",
+        "items": [
+            {
+                "href": "",
+                "name": "SAI GON BINH AN"
+            },
+            {
+                "href": "",
+                "name": "COBI TOWER"
+            },
+            {
+                "href": "",
+                "name": "EMPIRE CITY"
+            },
+            {
+                "href": "",
+                "name": "FPT TOWER"
+            },
+            {
+                "href": "",
+                "name": "LOTTE MALL HÀ NỘI"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Liên lạc",
+        "infomation": {
+            "title": "Thông tin chung",
+            "items": [
+                "Mr Đạt +84 857 489 576 - Email dattt@alupipe.com.vn",
+                "Mr Phụ +84 915 046 374 - Email phuln@alupipe.com.vn",
+                "16, Street 04, Him Lam Residential Area, District 07, Ho Chi Minh City"
+            ]
+        },
+        "form": {
+            "sub_title": "Để lại thông tin qua mail",
+            "title": "Nhận phản hồi sớm",
+            "button": "Gửi"
+        }
     },
     "products": {
-        "all_products": {
-            "alu": {
-                "slug": "alu",
-                "name": "alu material"
+        "ALCOTOP": {
+            "title": "ALCOTOP",
+            "href": "/products/ALCOTOP",
+            "pe": {
+                "title": "ALCOTOP PE",
+                "content": "ALCOTOP brand aluminum plastic core panels are being trusted and popularly used in the market by outstanding advantages such as sound insulation, heat insulation, light weight and perfect machinability.",
+                "button": "SEE DETAIL"
             },
-            "sadex": {
-                "slug": "sadex",
-                "name": "sadex material"
+            "fr": {
+                "title": "ALCOTOP FR",
+                "content": "ALCOTOP brand fireproof core aluminum panel is a great development from ordinary core panel, with fireproof function, this is a type of panel that has been trusted by large-scale projects around the world.",
+                "button": "SEE DETAIL"
             }
+        },
+        "ALCOTOP_PE": {
+            "title": "PE ALCOTOP",
+            "href": "/products/ALCOTOP-PE",
+            "content": [
+                "I. Alcotop panels with PE plastic core",
+                "II. Advantages of Alcotop",
+                "- Heat resistance: 3 times more than material made of steel.",
+                "- Extremely large sound absorption capacity, helping us feel quieter on rainy and windy days, not feeling noisy when it rains like other steel or corrugated iron roofs.",
+                "- Waterproofing ability: the corrosion resistance of Alcotop panels is high and has the ability to adapt to the weather, withstand the impact at the temperature background from -50 degrees Celsius -> 80 degrees Celsius.",
+                "- Light, durable, easy to work materials: The weight of the plate is only half the weight of a uniform aluminum sheet of the same thickness and equivalent stiffness. Easily cut or shape them into different shapes, suitable for many types of modern architecture, it is this feature that can help us easy construction such as sawing, cutting, drilling holes or bending without worry about peeling or scratching the aluminum plate.",
+                "III. Applications",
+                "- Commonly used in basic architectural constructions",
+                "- Application in modern industry",
+                "- Used in interior design, home decoration",
+                "- Production and installation according to the actual requirements of customers"
+            ],
+            "catalogs": {
+                "title": "Company Profile & Catalog",
+                "fiels": [
+
+                ]
+            }
+        },
+        "ALCOTOP_FR": {
+            "title": "FR ALCOTOP",
+            "href": "/products/ALCOTOP-FR",
+            "content": [
+                "I. What is FR ACP sheet?",
+                "In recent years, in most of the advanced and developed countries in the world, FR ACP sheets are increasingly popular and widely used because of their superior aesthetics and fire-resistant performance for buildings with high fire resistance. strict requirements on compliance with fire protection regulations. Accordingly, the structure of a FR ACP fireproof aluminum sheet will include: The outermost layer is a protective film, followed by a color paint layer, top aluminum layer, glue layer, fireproof plastic core with MgO2 composition, layer. glue and aluminum bottom layer.",
+                "2. Fireproof certifications achieved by FR ACP ALCOTOP",
+                "Nearly 10 years of developing the product line of fireproof aluminum panels, Alcotop has obtained countless different certificates from many reputable testing units in the world, such as ISO 9001 quality certificate, fireproof certificate. NFPA 285 – USA   from USA, PSB 2019 PSB – Singapore from Singapore and Korean standard KS A2 Core test. and fireproof certifications of Vietnam Institute of IBST VN test report"
+
+            ],
+            "catalogs": {
+                "title": "Company Profile & Catalog",
+                "fiels": [
+
+                ]
+            }
+        },
+        "STEEL_PIPE_FOR_PIPING": {
+            "title": "STEEL PIPE FOR PIPING",
+            "href": "/products/STEEL-PIPE-FOR-PIPING",
+            "content": [
+                "Product features",
+                "- STEEL PIPE FOR PIPING(API 5L / ASTM A671 / ASTM A672)",
+                "- Steel pipe for oil and gas transporation / general piping",
+                "- API (American Petroleum Institute) 5L certified",
+                "- High resistance to earthquake and differential settlement",
+                "- Multi-variety production",
+                "- Excellent physical properties and bearing capacity"
+            ],
+            "catalogs": {
+                "title": "Company Profile & Catalog",
+                "fiels": [
+
+                ]
+            }
+        },
+        "STRUCTURAL_FOR_STEEL_PIPE": {
+            "title": "STRUCTURAL STEEL PIPE",
+            "href": "/products/STRUCTURAL-FOR-STEEL-PIPE",
+            "content": [
+                "Product features",
+                "- Structural steel pipe (API 2B / EN10219)",
+                "- Heavy wall steel pipe / General structural purpose",
+                "- Heavy wall steel pipe / General structural purpose",
+                "- Excellent physical properties",
+                "- Multi-variety production",
+                "- Used for oil & gas line, offshore structures, plants, shipbuilding, building structures and etc."
+            ],
+            "catalogs": {
+                "title": "Company Profile & Catalog",
+                "fiels": [
+
+                ]
+            }
+        },
+        "STEEL_PIPE_PILE": {
+            "title": "STEEL PIPE PILE",
+            "href": "/products/STEEL-PIPE-PILE",
+            "content": [
+                "Product features",
+                "- Steel pipe piles (KS F 4602, JIS A 5525)",
+                "- Used for foundation pile for harbor construction, civil engineering, building structure and etc.",
+                "- Large bearing capacity, lateral load resistance and penetration capacity",
+                "- Reasonable designs and long pile construction are available.",
+                "- The volume of soil displaced during the driving is less.",
+                "- Easy tranporation, handling and splicing"
+            ],
+            "catalogs": {
+                "title": "Company Profile & Catalog",
+                "fiels": [
+
+                ]
+            }
+        },
+        "SQUARE_PIPE": {
+            "title": "SQUARE PIPE",
+            "href": "/products/SQUARE-PIPE",
+            "content": [
+                "Product features",
+                "- Square steel pipe (JIS G 3466)",
+                "- Cold formed square steel pipe for general structure / building structure",
+                "- Excellent earthquake resistance and plastic deformation capacity",
+                "- Easier to design than H-beam / Better use of space than circular steel pipe"
+            ]
+        },
+        "HEAT_TREATMENT": {
+            "title": "HEAT TREATMENT",
+            "href": "/products/HEAT-TREATMENT",
+            "content": [
+                "Product features",
+                "- PWHT / Normalizing",
+                "- Heat treatment facility",
+                "- Temperature range 600 ~ 1,000℃ / Suitable for large diameter steel pipes",
+                "- Anti-deformation process"
+            ]
+        },
+        "COATED_PIPE": {
+            "title": "COATED PIPE",
+            "href": "/products/COATED-PIPE",
+            "content": [
+                "Product features",
+                "- Coated pipe (KS D 3565, KS D 3589, DIN 30670)",
+                "- Coated pipe for waterworks / oil & gas",
+                "- External – Extruded 3 layer P.E. (P.P.) coating / Anti-slip / F.B.E. coating",
+                "- Internal – Liquid epoxy / polyurethane (polyurea) coating"
+            ]
+        },
+        "STEEL_HUSTEEL_KOREA": {
+            "title": "STEEL PIPE HUSTEEL KOREA",
+            "href": "/products/STEEL-HUSTEEL-KOREA",
+            "content": [
+                "STEEL PIPE HUSTEEL KOREA",
+                "Since founding in 1967, the steel company HUSTEEL has grown for half a century. Now we stand as representatives of steel pipe companies in Korea. We, as a global pipe leader, have been nourishing our resolve to realize even bigger dream. As a result, we have grown into a valuable company that moves the hearts of customers with our production capacity, high-tech equipment for global competitiveness and with the mind which considers its fellow men and environment to be of upmost importance, we continue to exceed expectations.",
+                "Product goods:",
+                "1. Steel Pipe for Oil Well / OCTG",
+                "Steel pipe (API 5CT) used to mine petroleum or natural gas",
+                "2. Oil Pipeline",
+                "Steel pipe (API 5L) used to transport mined petroleum or natural gas",
+                "3. Concrete Transporting Pipe",
+                "Single and twin steel pipe mounted to a concrete pump truck to transport concrete and used for single and twin transporting pipes",
+                "4. STS Steel Pipe",
+                "Stainless steel pipe used in petrochemical industry, water supply pipe, boiler, and heat exchanger",
+                "5.Hydraulic Cylinders",
+                "Steel pipe used for hydraulic cylinders for agricultural machinery and high hydraulic telescopic cylinder for construction machinery",
+                "6.Steel Pipe for Piping",
+                "We have been manufacturing steel pipes that are tailored optimally for any task such as: general pipes used to transport low-pressure steam, water, and oil, while fuel pipes are used to transport gas, and pressure pipes for any use under the stress of temperature lower than 350ºC.",
+                "7.Conduit",
+                "It is a steel pipe to protect electrical wires.",
+                "8.Steel Pipe for HRSG/Boilers and Heat Exchangers",
+                "It is a steel pipe used for boiler tubes, heat exchangers at petrochemical plants, condenser tubes, and catalyst tubes. HRSG (Heat Recovery Steam Generator) tubes are used for the equipment to recover waste heat.",
+                "9.Square Steel Pipe",
+                "It is a steel pipe used for ships, civil and architectural engineering, and other structures. As it does not experience any exterior deformation, it is an excellent product without processing.",
+                "10.Steel Pipe for Structural Purpose",
+                "There are steel pipes for general structural purposes used in civil engineering structures, architectural structures, steel towers, piles, and pillars; steel pipes for machine parts such as in machineries, automobiles, bicycles and instruments; and steel pipe piles for structure foundation in civil engineering and architectural structures."
+            ]
+            
+        },
+        "PV_PIPE_1": {
+
+        },
+        "PV_PIPE_2": {
+
+        },
+        "PV_PIPE_3": {
+
+        },
+        "PV_PIPE_4": {
+
+        },
+        "PV_PIPE_5": {
+
+        },
+        "PV_PIPE_6": {
+
+        },
+        "PV_PIPE_7": {
+
         }
     }
 }
