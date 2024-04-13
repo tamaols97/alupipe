@@ -17,8 +17,6 @@ export default async function Home({ params: { lang } }) {
       <Manufactures dict={dict}></Manufactures>
       <Customers dict={dict}></Customers>
       <OutstandingProjects dict={dict}></OutstandingProjects>
-      <p>{dict.homepage.test}</p>
-      <LangSwitcher></LangSwitcher>
     </>
   )
 }

@@ -9,11 +9,13 @@ export default async function Projects({params: {lang}}) {
     const blocks = []
     items.forEach(item => {
         blocks.push((
-            <div className="hover:scale-105 transition-transform shadow-lg bg-gradient-to-tr from-orange-200 to-orange-400">
-                <img
-                    className="aspect-square w-full"
-                    src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                ></img>
+            <div className="group shadow-lg bg-gradient-to-tr from-orange-200 to-orange-400 cursor-pointer">
+                <div className="w-full aspect-square overflow-hidden">
+                    <img
+                        className="aspect-square w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                    ></img>
+                </div>
                 <div className="text-xl py-4 lg:py-8">{item.name}</div>
             </div>
         ))

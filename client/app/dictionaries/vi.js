@@ -20,99 +20,103 @@ export default {
     "header": {
         "menu": [
             {
-                "title": "About",
+                "title": "Về chúng tôi",
                 "link": "/about"
             },
             {
-                "title": "News",
-                "link": "/news"
-            },
-            {
-                "title": "Projects",
+                "title": "Các dự án",
                 "link": "/projects"
             },
             {
-                "title": "Products",
+                "title": "Các sản phẩm",
                 "link": "/products",
-                "items": [
-                    {
-                        "title": "ALCOTOP",
-                        "sub": [
-                            {
-                                "title": "PE-ALCOTOP",
-                                "link": "/products/PE-ALCOTOP"
-                            },
-                            {
-                                "title": "FR-ALCOTOP",
-                                "link": "/products/FR-ALCOTOP"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "DONG YANG STEEL PIPE",
-                        "sub": [
-                            {
-                                "title": "STEEL PIPE FOR PIPING",
-                                "link": "/products/STELL-PIPE-FOR-PIPING"
-                            },
-                            {
-                                "title": "STRUCTURAL STEEL PIPE",
-                                "link": "/products/STRUCTURAL-STEEL-PIPE"
-                            },
-                            {
-                                "title": "STEEL PIPE PILE",
-                                "link": "/products/STEEL-PIPE-PILE"
-                            },
-                            {
-                                "title": "SQUARE PIPE",
-                                "link": "/products/SQUARE-PIPE"
-                            },
-                            {
-                                "title": "COATED PIPE",
-                                "link": "/products/COATED-PIPE"
-                            },
-                            {
-                                "title": "HEAT TREATMENT",
-                                "link": "/products/HEAT-TREATMENT"
-                            }
-                        ]
-                    },
+                // "items": [
+                //     {
+                //         "title": "ALCOTOP",
+                //         "sub": [
+                //             {
+                //                 "title": "PE-ALCOTOP",
+                //                 "link": "/products/PE-ALCOTOP"
+                //             },
+                //             {
+                //                 "title": "FR-ALCOTOP",
+                //                 "link": "/products/FR-ALCOTOP"
+                //             }
+                //         ]
+                //     },
+                //     {
+                //         "title": "DONG YANG STEEL PIPE",
+                //         "sub": [
+                //             {
+                //                 "title": "STEEL PIPE FOR PIPING",
+                //                 "link": "/products/STELL-PIPE-FOR-PIPING"
+                //             },
+                //             {
+                //                 "title": "STRUCTURAL STEEL PIPE",
+                //                 "link": "/products/STRUCTURAL-STEEL-PIPE"
+                //             },
+                //             {
+                //                 "title": "STEEL PIPE PILE",
+                //                 "link": "/products/STEEL-PIPE-PILE"
+                //             },
+                //             {
+                //                 "title": "SQUARE PIPE",
+                //                 "link": "/products/SQUARE-PIPE"
+                //             },
+                //             {
+                //                 "title": "COATED PIPE",
+                //                 "link": "/products/COATED-PIPE"
+                //             },
+                //             {
+                //                 "title": "HEAT TREATMENT",
+                //                 "link": "/products/HEAT-TREATMENT"
+                //             }
+                //         ]
+                //     },
 
-                    {
-                        "title": "PV PIPE",
-                        "sub": [
-                            {
-                                "title": "STEEL PIPE FOR PIPING",
-                                "link": "/products/STELL-PIPE-FOR-PIPING"
-                            },
-                            {
-                                "title": "STRUCTURAL STEEL PIPE",
-                                "link": "/products/STRUCTURAL-STEEL-PIPE"
-                            },
-                            {
-                                "title": "STEEL PIPE PILE",
-                                "link": "/products/STEEL-PIPE-PILE"
-                            },
-                            {
-                                "title": "SQUARE PIPE",
-                                "link": "/products/SQUARE-PIPE"
-                            },
-                            {
-                                "title": "COATED PIPE",
-                                "link": "/products/COATED-PIPE"
-                            },
-                            {
-                                "title": "HEAT TREATMENT",
-                                "link": "/products/HEAT-TREATMENT"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "STEEL PIPE HUSTEEL KOREA",
-                        "link": "/products/STEEL-PIPE-HUSTEEL-KOREA"
-                    }
-                ]
-            }
+                //     {
+                //         "title": "PV PIPE",
+                //         "sub": [
+                //             {
+                //                 "title": "STEEL PIPE FOR PIPING",
+                //                 "link": "/products/STELL-PIPE-FOR-PIPING"
+                //             },
+                //             {
+                //                 "title": "STRUCTURAL STEEL PIPE",
+                //                 "link": "/products/STRUCTURAL-STEEL-PIPE"
+                //             },
+                //             {
+                //                 "title": "STEEL PIPE PILE",
+                //                 "link": "/products/STEEL-PIPE-PILE"
+                //             },
+                //             {
+                //                 "title": "SQUARE PIPE",
+                //                 "link": "/products/SQUARE-PIPE"
+                //             },
+                //             {
+                //                 "title": "COATED PIPE",
+                //                 "link": "/products/COATED-PIPE"
+                //             },
+                //             {
+                //                 "title": "HEAT TREATMENT",
+                //                 "link": "/products/HEAT-TREATMENT"
+                //             }
+                //         ]
+                //     },
+                //     {
+                //         "title": "STEEL PIPE HUSTEEL KOREA",
+                //         "link": "/products/STEEL-PIPE-HUSTEEL-KOREA"
+                //     }
+                // ]
+            },
+            {
+                "title": "Tin tức",
+                "link": "/news"
+            },
+            {
+                "title": "Liên lạc",
+                "link": "/contact"
+            },
         ]
     },
     "hero": {
