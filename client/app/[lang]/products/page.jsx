@@ -5,27 +5,27 @@ import Link from "next/link"
 
 export default async function Products({ params: { lang } }) {
 
-    const { products } = await getDictionary(lang)
-    const { all_products } = products
+    const { products, product_screen } = await getDictionary(lang)
 
     const elements = []
-    for (let key in all_products) {
-        if (all_products.hasOwnProperty(key)) {
-            
+    for (let key in products) {
+        if (products.hasOwnProperty(key)) {
+            console.log(key);
             elements.push(
-                <div key={key}>
-                    <Link className="text-orange-600" href={`/products/${all_products[key]["slug"]}`}>{all_products[key]["slug"]}: {all_products[key]["name"]}</Link>
-                </div>)
+                <Link href={products[key].href} class="h-32 rounded-lg bg-gradient-to-r from-blue-200 to-blue-400 flex justify-center items-center">
+                    {products[key].title}
+                </Link>)
         }
     }
 
-    console.log(lang);
-
     return <section>
-        <SubHero></SubHero>
-        <Breadcumbs></Breadcumbs>
-        <div className="text-center text-cyan-600"><a href="products/1">Product One</a></div>
-        Products Gallery
-        {elements}
+        <SubHero title={product_screen.title}></SubHero>
+        <div class="mx-auto grid grid-cols-1 gap-4 px-8 my-4 lg:grid-cols-3 lg:gap-8 lg:container">
+            <div className="col-span-1 md:col-span-3 text-ellipsis">
+                <Breadcumbs ></Breadcumbs>
+            </div>
+            {elements}
+
+        </div>        
     </section>
 }

@@ -15,11 +15,7 @@ export default function Intro({ dict }) {
                     <div className="lg:py-24">
                         <h4>{about_us.sub_title}</h4>
                         <h2 className="text-3xl font-bold sm:text-4xl">{about_us.title}</h2>
-                        {about_us.content.map((item, index) => {
-                            return (
-                                <p key={index} className="mt-4 text-gray-600">{item}</p>
-                            )
-                        })}
+                        <div className="mt-4 text-gray-600 whitespace-pre-wrap">{about_us.content}</div>
 
                         <a
                             href="/about"

@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children, params: { lang } }) {
   return (
     <html lang={lang}>
-      <body className={inter.className}>
+      <body className={`${inter.className} selection:bg-fuchsia-300 selection:text-fuchsia-900`}>
         <Header />
         {children}
         <Footer lang={lang} />

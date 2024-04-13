@@ -264,16 +264,18 @@ export default {
     "about_us": {
         "sub_title": "Về chúng tôi",
         "title": "Về ALUPIPE",
-        "content": [
-            "ALUPIPE is the exclusive manufacturer and distributor of aluminum composite panel products and top quality steel pipe products in KOREA and VIETNAM. The main products we are producing and distributing exclusively include:",
-            "1 ALUMINUM COMPOSITE PANEL – ALUMINUM COMPOSITE PANEL BRAND “ALCOTOP”",
-            "2 STEEL TUBE PRODUCTS",
-            "- LONGITUDINAL SUBMERGED ARC WELDING PIPE (LSAW) MANUFACTURED BY PETROVIETNAM STEEL PIPE JOINT STOCK COMPANY (PV PIPE)",
-            "- WELDED STEEL PIPE, FLEXIBLE WELDING, PIPE CONNECTION SERVICE (INNER AND OUTSIDE) MANUFACTURED BY DONGYANG STEEL PIPE COMPANY – KOREA",
-            "- ERW-HFW WELDED STEEL PIPE (Round, Square, RUBBER) MANUFACTURED BY HUSTEEL COMPANY – KOREA.",
-            "3 PRODUCTS OF STEEL SHEET, STEEL…"
-        ],
-        "button": "READ MORE",
+        "content": `
+        Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các sản phẩm tấm ốp nhôm nhựa phức hợp và các sản phẩm ống thép chất lượng hàng đầu tại HÀN QUỐC và VIỆT NAM. Các sản phẩm chính chúng tôi đang sản xuất và phân phối độc quyền bao gồm:
+        1 TẤM ỐP NHÔM NHỰA PHỨC HỢP – ALUMINUM COMPOSITE PANEL  THƯƠNG HIỆU “ALCOTOP”.
+        
+        2 CÁC SẢN PHẨM ỐNG THÉP.
+        
+        ỐNG THÉP HÀN THẲNG HỔ QUANG CHÌM (LSAW) DO CÔNG TY CP SẢN XUẤT ỐNG THÉP DẦU KHÍ VIỆT NAM (PVPIPE) SẢN XUẤT;
+        ỐNG THÉP HÀN THẲNG, HÀN SOẮN, DỊCH VỤ BỌC ỐNG (BÊN TRONG VÀ BÊN NGOÀI) DO CÔNG TY DONGYANG STEEL PIPE – HÀN QUỐC SẢN XUẤT;
+        ỐNG THÉP HÀN ERW-HFW (ỐNG TRÒN, ỐNG VUÔNG, CHỮ NHẬT) DO CÔNG TY HUSTEEL – KOREA SẢN XUẤT.
+        3 CÁC SẢN PHẨM VỀ THÉP TẤM, THÉP HÌNH…        
+        `,
+        "button": "ĐỌC TOÀN BỘ",
         "product_button": "VIEW PRODUCTS",
         "manufacture_coporate": {
             "title": "Manufactures that coporate with us"
@@ -327,11 +329,13 @@ export default {
             "href": "/products/ALCOTOP",
             "pe": {
                 "title": "ALCOTOP PE",
+                "href": "/products/ALCOTOP-PE",
                 "content": "Tấm ốp nhôm lõi nhựa thương hiệu ALCOTOP đang được tin dùng và sử dụng phổ biến trên thị trường bởi các ưu điểm nổi trội như cách âm, cách nhiệt, khối lượng nhẹ và khả năng gia công hoàn hảo. ",
                 "button": "SEE DETAIL"
             },
             "fr": {
                 "title": "ALCOTOP FR",
+                "href": "/products/ALCOTOP-FR",
                 "content": "Tấm ốp nhôm lõi chống cháy thương hiệu ALCOTOP là sự phát triển vượt bậc từ tấm ốp lõi thông thường, với công năng chống cháy, đây là loại tấm ốp đã và đang được tin dùng bởi các công trình quy mô lớn trên thế giới. ",
                 "button": "SEE DETAIL"
             }
@@ -661,5 +665,12 @@ export default {
             Kiểm tra kết cấu trong nghành công nghiệp dầu khí            
             `
         }
+    },
+    "news": {
+        "title": "Tin tức",
+    },
+    "product_screen": {
+        "title": "Danh mục các sản phẩm",
+        "title_detail": "Chi tiết sản phẩm",
     }
 }

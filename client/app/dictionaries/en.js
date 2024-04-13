@@ -1,4 +1,4 @@
-export const PV_PILE_PRODUCTS = {
+export default {
     "basis": {
         "logo": "Logo_80x79.png",
         "name": "Alupipe",
@@ -267,15 +267,17 @@ export const PV_PILE_PRODUCTS = {
     "about_us": {    
         "sub_title": "About us",
         "title": "About ALUPIPE",
-        "content": [
-            "ALUPIPE is the exclusive manufacturer and distributor of aluminum composite panel products and top quality steel pipe products in KOREA and VIETNAM. The main products we are producing and distributing exclusively include:",
-            "1 ALUMINUM COMPOSITE PANEL – ALUMINUM COMPOSITE PANEL BRAND “ALCOTOP”",
-            "2 STEEL TUBE PRODUCTS",
-            "- LONGITUDINAL SUBMERGED ARC WELDING PIPE (LSAW) MANUFACTURED BY PETROVIETNAM STEEL PIPE JOINT STOCK COMPANY (PV PIPE)",
-            "- WELDED STEEL PIPE, FLEXIBLE WELDING, PIPE CONNECTION SERVICE (INNER AND OUTSIDE) MANUFACTURED BY DONGYANG STEEL PIPE COMPANY – KOREA",
-            "- ERW-HFW WELDED STEEL PIPE (Round, Square, RUBBER) MANUFACTURED BY HUSTEEL COMPANY – KOREA.",
-            "3 PRODUCTS OF STEEL SHEET, STEEL…"
-        ],
+        "content": `
+        ALUPIPE is the exclusive manufacturer and distributor of aluminum composite panel products and top quality steel pipe products in KOREA and VIETNAM. The main products we are producing and distributing exclusively include:
+        1 ALUMINUM COMPOSITE PANEL – ALUMINUM COMPOSITE PANEL BRAND “ALCOTOP”
+        
+        2 STEEL TUBE PRODUCTS
+        
+        LONGITUDINAL SUBMERGED ARC WELDING PIPE (LSAW) MANUFACTURED BY PETROVIETNAM STEEL PIPE JOINT STOCK COMPANY (PV PIPE)
+        WELDED STEEL PIPE, FLEXIBLE WELDING, PIPE CONNECTION SERVICE (INNER AND OUTSIDE) MANUFACTURED BY DONGYANG STEEL PIPE COMPANY – KOREA
+        ERW-HFW WELDED STEEL PIPE (Round, Square, RUBBER) MANUFACTURED BY HUSTEEL COMPANY – KOREA.
+        3 PRODUCTS OF STEEL SHEET, STEEL…        
+        `,
         "button": "READ MORE",
         "product_button": "VIEW PRODUCTS",
         "manufacture_coporate": {
@@ -309,7 +311,7 @@ export const PV_PILE_PRODUCTS = {
         ]
     },
     "contact": {
-        "title": "Contact us now",
+        "title": "Contact Infomation",
         "infomation": {
             "title": "Our infomation",
             "items": [
@@ -330,11 +332,13 @@ export const PV_PILE_PRODUCTS = {
             "href": "/products/ALCOTOP",
             "pe": {
                 "title": "ALCOTOP PE",
+                "href": "/products/ALCOTOP-PE",
                 "content": "ALCOTOP brand aluminum plastic core panels are being trusted and popularly used in the market by outstanding advantages such as sound insulation, heat insulation, light weight and perfect machinability.",
                 "button": "SEE DETAIL"
             },
             "fr": {
                 "title": "ALCOTOP FR",
+                "href": "/products/ALCOTOP-FR",
                 "content": "ALCOTOP brand fireproof core aluminum panel is a great development from ordinary core panel, with fireproof function, this is a type of panel that has been trusted by large-scale projects around the world.",
                 "button": "SEE DETAIL"
             }
@@ -505,6 +509,7 @@ export const PV_PILE_PRODUCTS = {
         },
         "PV_PIPE_1": {
             title: "SAWL Pipe",
+            "href": "/products/PV-PIPE-1",
             content: `
             PV Pipe shall supply pipes according to Customer Requirement which is based on the optimal production process. Our quality is guaranteed by following exact manufacturing and quality control procedures as well as controlled by our quality management system complied API Q1 and ISO 9001.
     
@@ -563,10 +568,12 @@ export const PV_PILE_PRODUCTS = {
         },
         "PV_PIPE_2": {
             title: "Accessories in Oil/Gas industry",
+            "href": "/products/PV-PIPE-2",
             content: "PV PIPE manufactures accessories used in the Oil and Gas industry based on customer requirements."
         },
         "PV_PIPE_3": {
             title: "Construction and Installation of equipment and accessories in Petroleum Industry",
+            "href": "/products/PV-PIPE-3",
             content: "We are proud of our human resources with creative, well-trained employees. PV PIPE has a team of highly qualified managers and engineers, skilled and experienced workers, ensuring the ability to manufacture, construct, and install equipment in the oil and gas industry such as Skid structures and spare parts, Platform, Frame Structures, Spool, etc."
         
         },
@@ -588,7 +595,7 @@ export const PV_PILE_PRODUCTS = {
         },
         "PV_PIPE_5": {
             title: "Welding Services",
-            href: "PV-PIPE-5",
+            "href": "/products/PV-PIPE-5",
             content: `
             PV PIPE always puts quality first and is committed to providing the best quality welding services for various heavy industries. With modern machinery and equipment along with the welding process and professional personnel, PV PIPE’s welding service fully meets the requirements of customers and applicable standards such as AWS D1.1, ASME IX, API 5L, etc.
     
@@ -652,5 +659,12 @@ export const PV_PILE_PRODUCTS = {
             Industrial oil and gas structure inspection        
             `
         }
-    }
+    },
+    "news": {
+        "title": "Our happening events",
+    },
+    "product_screen": {
+        "title": "All our products",
+        "title_detail": "Product Detail",
+    },
 }
