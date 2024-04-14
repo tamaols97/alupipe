@@ -673,4 +673,7 @@ ERW-HFW WELDED STEEL PIPE (Round, Square, RUBBER) MANUFACTURED BY HUSTEEL COMPAN
         "title": "All our products",
         "title_detail": "Product Detail",
     },
+    catalogs: {
+        "title": "Catalogs & Profiles"
+    }
 }

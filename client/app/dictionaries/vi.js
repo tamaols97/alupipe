@@ -678,5 +678,8 @@ Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các
     "product_screen": {
         "title": "Danh mục các sản phẩm",
         "title_detail": "Chi tiết sản phẩm",
+    },
+    catalogs: {
+        title: "Catalog và hồ sơ năng lực"
     }
 }

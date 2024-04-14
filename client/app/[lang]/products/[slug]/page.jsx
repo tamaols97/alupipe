@@ -3,10 +3,16 @@ import SubHero from "@/app/components/commons/sub_hero";
 import { getDictionary } from "../../dictionaries";
 import Link from "next/link";
 import { stringDashToShiftDash } from "@/utilities";
+import Catalogs from "@/app/components/products/catalogs";
+import { getProduct } from "@/app/contents/actions";
 
 export default async function Product({ params: { slug, lang } }) {
     const { products, product_screen } = await getDictionary(lang)
     const entity = products[stringDashToShiftDash(slug)]
+    const _product = await getProduct(stringDashToShiftDash(slug), lang)
+    if (!_product) return (
+        <section>404</section>
+    ) 
 
     if (!entity) return <section>
         <SubHero></SubHero>
@@ -42,6 +48,9 @@ export default async function Product({ params: { slug, lang } }) {
                             </Link>
                         </article>
                     </div>
+                    <div className="lg:col-span-1">
+                        <Catalogs lang={lang} items={_product.catalogs}></Catalogs>
+                    </div>
                 </div>
             </section>
         )
@@ -59,7 +68,9 @@ export default async function Product({ params: { slug, lang } }) {
                     {entity.content}
                 </p>
             </div>
-            <div className="lg:col-span-1"></div>
+            <div className="lg:col-span-1">
+                <Catalogs lang={lang} items={_product.catalogs}></Catalogs>
+            </div>
 
         </div>
     </section>
