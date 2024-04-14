@@ -267,17 +267,19 @@ export default {
     },
     "about_us": {
         "sub_title": "Về chúng tôi",
-        "title": "Về ALUPIPE",
+        "title": "Công ty ALUPIPE",
         "content": `
-        Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các sản phẩm tấm ốp nhôm nhựa phức hợp và các sản phẩm ống thép chất lượng hàng đầu tại HÀN QUỐC và VIỆT NAM. Các sản phẩm chính chúng tôi đang sản xuất và phân phối độc quyền bao gồm:
-        1 TẤM ỐP NHÔM NHỰA PHỨC HỢP – ALUMINUM COMPOSITE PANEL  THƯƠNG HIỆU “ALCOTOP”.
-        
-        2 CÁC SẢN PHẨM ỐNG THÉP.
-        
-        ỐNG THÉP HÀN THẲNG HỔ QUANG CHÌM (LSAW) DO CÔNG TY CP SẢN XUẤT ỐNG THÉP DẦU KHÍ VIỆT NAM (PVPIPE) SẢN XUẤT;
-        ỐNG THÉP HÀN THẲNG, HÀN SOẮN, DỊCH VỤ BỌC ỐNG (BÊN TRONG VÀ BÊN NGOÀI) DO CÔNG TY DONGYANG STEEL PIPE – HÀN QUỐC SẢN XUẤT;
-        ỐNG THÉP HÀN ERW-HFW (ỐNG TRÒN, ỐNG VUÔNG, CHỮ NHẬT) DO CÔNG TY HUSTEEL – KOREA SẢN XUẤT.
-        3 CÁC SẢN PHẨM VỀ THÉP TẤM, THÉP HÌNH…        
+Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các sản phẩm tấm ốp nhôm nhựa phức hợp và các sản phẩm ống thép chất lượng hàng đầu tại HÀN QUỐC và VIỆT NAM. Các sản phẩm chính chúng tôi đang sản xuất và phân phối độc quyền bao gồm:
+
+1 TẤM ỐP NHÔM NHỰA PHỨC HỢP – ALUMINUM COMPOSITE PANEL  THƯƠNG HIỆU “ALCOTOP”.
+
+2 CÁC SẢN PHẨM ỐNG THÉP.
+
+ỐNG THÉP HÀN THẲNG HỔ QUANG CHÌM (LSAW) DO CÔNG TY CP SẢN XUẤT ỐNG THÉP DẦU KHÍ VIỆT NAM (PVPIPE) SẢN XUẤT;
+ỐNG THÉP HÀN THẲNG, HÀN SOẮN, DỊCH VỤ BỌC ỐNG (BÊN TRONG VÀ BÊN NGOÀI) DO CÔNG TY DONGYANG STEEL PIPE – HÀN QUỐC SẢN XUẤT;
+ỐNG THÉP HÀN ERW-HFW (ỐNG TRÒN, ỐNG VUÔNG, CHỮ NHẬT) DO CÔNG TY HUSTEEL – KOREA SẢN XUẤT.
+
+3 CÁC SẢN PHẨM VỀ THÉP TẤM, THÉP HÌNH…        
         `,
         "button": "ĐỌC TOÀN BỘ",
         "product_button": "VIEW PRODUCTS",

@@ -1,3 +1,23 @@
+import empirecity from "@/public/projects/EMPIRE-CITY.jpg"
+import saigonbinhan from "@/public/projects/SAI-GON-BINH-AN.jpg"
+import cobitower from "@/public/projects/COBI-TOWER.jpeg"
+import Image from "next/image"
+
+const OUTSTANDING_PROJECTS = [
+    {
+        name: "SÀI GÒN BÌNH AN",
+        src: saigonbinhan.src,
+    }, 
+    {
+        name: "COBI TOWER",
+        src: cobitower.src,
+    },
+    {
+        name: "EMPIRE CITY",
+        src: empirecity.src,
+    }
+]
+
 export default function OutstandingProjects({ dict }) {
     const { homepage } = dict
     const { outstanding_projects } = homepage
@@ -12,14 +32,19 @@ export default function OutstandingProjects({ dict }) {
                     {outstanding_projects.sub_title}
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {outstanding_projects.items.map((project, index) => {
+                    {OUTSTANDING_PROJECTS.map((project, index) => {
                         return (
-                            <div key={index} className="bg-white rounded-lg shadow-lg p-8">
-                                <h2 className="text-xl font-bold text-gray-800 mb-4">{project.name}</h2>
-                                <p className="text-gray-700">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit
-                                    semper.
-                                </p>
+                            <div key={index} className="group bg-white rounded-lg shadow-lg p-8">
+                                <h2 className="text-xl font-bold text-gray-800 mb-4 group-hover:text-yellow-600 transition-transform duration-500">{project.name}</h2>
+                                <div className="w-full aspect-square overflow-hidden flex items-center">
+                                    <Image
+                                        alt="projects served"
+                                        width={100}                                
+                                        height={100}
+                                        src={project.src}
+                                        className="w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                    ></Image>
+                                </div>
                             </div>
                         )
                     })}

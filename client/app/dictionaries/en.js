@@ -272,15 +272,17 @@ export default {
         "sub_title": "About us",
         "title": "About ALUPIPE",
         "content": `
-        ALUPIPE is the exclusive manufacturer and distributor of aluminum composite panel products and top quality steel pipe products in KOREA and VIETNAM. The main products we are producing and distributing exclusively include:
-        1 ALUMINUM COMPOSITE PANEL – ALUMINUM COMPOSITE PANEL BRAND “ALCOTOP”
-        
-        2 STEEL TUBE PRODUCTS
-        
-        LONGITUDINAL SUBMERGED ARC WELDING PIPE (LSAW) MANUFACTURED BY PETROVIETNAM STEEL PIPE JOINT STOCK COMPANY (PV PIPE)
-        WELDED STEEL PIPE, FLEXIBLE WELDING, PIPE CONNECTION SERVICE (INNER AND OUTSIDE) MANUFACTURED BY DONGYANG STEEL PIPE COMPANY – KOREA
-        ERW-HFW WELDED STEEL PIPE (Round, Square, RUBBER) MANUFACTURED BY HUSTEEL COMPANY – KOREA.
-        3 PRODUCTS OF STEEL SHEET, STEEL…        
+ALUPIPE is the exclusive manufacturer and distributor of aluminum composite panel products and top quality steel pipe products in KOREA and VIETNAM. The main products we are producing and distributing exclusively include:
+
+1 ALUMINUM COMPOSITE PANEL – ALUMINUM COMPOSITE PANEL BRAND “ALCOTOP”
+
+2 STEEL TUBE PRODUCTS
+
+LONGITUDINAL SUBMERGED ARC WELDING PIPE (LSAW) MANUFACTURED BY PETROVIETNAM STEEL PIPE JOINT STOCK COMPANY (PV PIPE)
+WELDED STEEL PIPE, FLEXIBLE WELDING, PIPE CONNECTION SERVICE (INNER AND OUTSIDE) MANUFACTURED BY DONGYANG STEEL PIPE COMPANY – KOREA
+ERW-HFW WELDED STEEL PIPE (Round, Square, RUBBER) MANUFACTURED BY HUSTEEL COMPANY – KOREA.
+
+3 PRODUCTS OF STEEL SHEET, STEEL…        
         `,
         "button": "READ MORE",
         "product_button": "VIEW PRODUCTS",

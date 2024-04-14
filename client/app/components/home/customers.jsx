@@ -1,6 +1,32 @@
-export default function Customers({dict}) {
-    const {homepage} = dict 
-    const {customers} = homepage
+import central from "@/public/customers/central.png"
+import charmgroup from "@/public/customers/charmgroup.png"
+import ecc from "@/public/customers/ecc.jpg"
+import honda from "@/public/customers/honda.png"
+import keppelland from "@/public/customers/keppelland.svg"
+import masterhomes from "@/public/customers/masterhomes.png"
+import novaland from "@/public/customers/novaland.jpg"
+import petrogas from "@/public/customers/petrogas.jpg"
+import ptsc from "@/public/customers/ptsc.jpg"
+import pvcoating from "@/public/customers/pvcoating.jpg"
+import vietsopetro from "@/public/customers/vietsovpetro.jpg"
+
+const CUSTOMERS = [
+    central,
+    charmgroup,
+    ecc,
+    honda,
+    keppelland,
+    masterhomes,
+    novaland,
+    petrogas,
+    ptsc,
+    pvcoating,
+    vietsopetro,
+]
+
+export default function Customers({ dict }) {
+    const { homepage } = dict
+    const { customers } = homepage
 
     return (
         <div className="bg-white w-full px-4 pt-16 pb-16" id="faq">
@@ -10,25 +36,15 @@ export default function Customers({dict}) {
             </p>
             <div className="mx-auto w-full max-w-4xl bg-white">
                 <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
-                    <a target="_blank" href="">
-                        <img alt="" className="h-20  mx-auto" src="https://www.svgrepo.com/show/442910/brand-apple.svg" />
-                    </a>
-                    <a target="_blank" href="">
-                        <img alt="" className="h-20  mx-auto" src="https://www.svgrepo.com/show/443329/brand-pixar.svg" />
-                    </a>
-                    <a target="_blank" href="">
-                        <img alt="" className="h-20  mx-auto" src="https://www.svgrepo.com/show/443079/brand-geforce.svg" />
-                    </a>
-                    <a target="_blank" href="">
-                        <img alt="" className="h-20  mx-auto" src="https://www.svgrepo.com/show/443042/brand-ethereum.svg" />
-                    </a>
-                    <a target="_blank" href="">
-                        <img alt="" className="h-20  mx-auto" src="https://www.svgrepo.com/show/443206/brand-line.svg" />
-                    </a>
-                    <a target="_blank" href="">
-                        <img alt="" className="h-20  mx-auto" src="https://www.svgrepo.com/show/519278/slack.svg" />
-                    </a>
-                    
+
+                    {
+                        CUSTOMERS.map((customer, index) => (
+                            <a key={index} target="_blank" href="">
+                                <img alt="customer logo" className="h-20  mx-auto" src={customer.src} />
+                            </a>
+                        ))
+                    }
+
                 </div>
             </div>
         </div>

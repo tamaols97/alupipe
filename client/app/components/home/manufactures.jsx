@@ -1,6 +1,55 @@
+import alcotop from "@/public/manufactures/alcotop.jpg"
+import dongyang from "@/public/manufactures/dongyang.jpg"
+import husteel from "@/public/manufactures/husteel.jpg"
+import pipipe from "@/public/manufactures/pvpipe.jpg"
+import hsnl_alcotop from "@/public/manufactures/HSNL-ALCOTOP.png"
+import hsnl_dongyang from "@/public/manufactures/HSNL-DONGYANG.png"
+import hsnl_husteel from "@/public/manufactures/HSNL-HUSTEEL.png"
+import hsnl_pvpipe from "@/public/manufactures/HSNL-PVPIPE.png"
+import Image from "next/image"
+
 export default function Manufactures({ dict }) {
     const { homepage } = dict
     const { manufactures } = homepage
+
+    const items = [
+        {
+            "picture": alcotop,
+            "title": "ALCOTOP"
+        },
+        {
+            "picture": dongyang,
+            "title": "DONG YANG STEEL PIPE"
+        },
+        {
+            "picture": husteel,
+            "title": "HUSTEEL PIPE"
+        },
+        {
+            "picture": pipipe,
+            "title": "PV PIPE"
+        },
+        {
+            "picture": hsnl_alcotop,
+            "title": "Company Profile (pdf)",
+            "href": ""
+        },
+        {
+            "picture": hsnl_dongyang,
+            "title": "Company Profile (pdf)",
+            "href": ""
+        },
+        {
+            "picture": hsnl_husteel,
+            "title": "Company Profile (pdf)​",
+            "href": ""
+        },
+        {
+            "picture": hsnl_pvpipe,
+            "title": "Company Profile (pdf)​",
+            "href": ""
+        }
+    ]
 
     return (
         <section>
@@ -12,19 +61,32 @@ export default function Manufactures({ dict }) {
                 </header>
 
                 <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                    {manufactures.items.map((item, index) => {
+                    {items.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a href="#" className="group block overflow-hidden">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                                        alt=""
-                                        className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-                                    />
-        
+                                <a href="#" className="group block overflow-hidden ">
+                                    {index < 4 ? (
+                                        <Image
+                                            alt="manufacture companys"
+                                            width={100}
+                                            height={100}
+                                            src={item.picture}
+                                            className="w-full border-4 group-hover:scale-105 transition-transform duration-500"
+                                        ></Image>
+                                    ) : (
+                                        <Image
+                                            alt="manufacture companys"
+                                            width={100}
+                                            height={100}
+                                            className="w-full border-4 group-hover:scale-105 transition-transform duration-500 lg:w-28"
+                                            src={item.picture}
+                                        ></Image>
+                                    )}
+
+
                                     <div className="relative bg-white pt-3">
                                         <p className="mt-2">
-                                            <span className="tracking-wider text-gray-900">{item.title}</span>
+                                            <span className="tracking-wider text-gray-900 group-hover:text-blue-400">{item.title}</span>
                                         </p>
                                     </div>
                                 </a>

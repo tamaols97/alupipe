@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
  
 let locales = ['en', 'vi', 'nl']
-let defaultLocale = 'en'
+let defaultLocale = 'vi'
 
 // Get the preferred locale, similar to the above or using a library
 function getLocale(request) {
