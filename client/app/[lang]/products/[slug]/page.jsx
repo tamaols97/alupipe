@@ -25,7 +25,7 @@ export default async function Product({ params: { slug, lang } }) {
                 <SubHero title={product_screen.title_detail}></SubHero>
                 <div className="mx-auto px-4 py-4 grid grid-cols-1 gap-4 md:px-8 lg:grid-cols-3 lg:gap-8">
                     <div className="lg:col-span-3">
-                        <Breadcumbs></Breadcumbs>
+                        <Breadcumbs></Breadcumbs> 
                     </div>
                     <div className="lg:col-span-2 bg-grey-100 shadow-md p-4 min-h-96 md:p-8">
                         <h1 className="text-lg text-ellipsis font-medium">{entity.title}</h1>

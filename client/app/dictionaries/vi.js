@@ -624,7 +624,7 @@ Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các
             `
         },
         "PV_PIPE_6": {
-            "title": "",
+            "title": "PV-PIPE-6",
             "href": "/products/PV-PIPE-6",
             "content": `
             Dịch vụ kiểm tra cơ hóa tính
