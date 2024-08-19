@@ -1,7 +1,8 @@
 import Breadcumbs from "@/app/components/commons/breadcrumbs";
 import SubHero from "@/app/components/commons/sub_hero";
 import { getDictionary } from "../dictionaries";
-import Link from "next/link"
+import Link from "next/link";
+import './index.css'
 
 export default async function Products({ params: { lang } }) {
 
@@ -12,7 +13,7 @@ export default async function Products({ params: { lang } }) {
         if (products.hasOwnProperty(key)) {
             console.log(key);
             elements.push(
-                <Link href={products[key].href} class="h-32 rounded-lg bg-gradient-to-r from-blue-200 to-blue-400 flex justify-center items-center">
+                <Link href={products[key].href} class="grid-item h-32 rounded-lg bg-gradient-to-r from-blue-200 to-blue-400 flex justify-center items-center">
                     {products[key].title}
                 </Link>)
         }
