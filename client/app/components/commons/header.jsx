@@ -3,7 +3,10 @@ import Image from "next/image"
 import logo from "../../../public/commons/logo.png"
 import LangSwitcher from "./language_switcher"
 import { usePathname } from "next/navigation"
+import { useState } from "react"
+
 export default function Header({items}) {
+  const [menuOpen, setMenuOpen] = useState(false);
   const pathName = usePathname()
   const noLangPathName = "/" + pathName.split("/")[2]
 
@@ -19,9 +22,28 @@ export default function Header({items}) {
             </a>
           </div>
 
-          <div className="hidden md:block">
+          {/* Menu cho màn hình máy tính */}
+          <div className="hidden md:flex items-center justify-center">
             <nav aria-label="Global">
-              <ul className="flex items-center gap-6 text-sm">
+              <ul className="flex flex-row items-center gap-6 text-sm">
+                {items.map(item => {
+                  return (
+                    <li key={item.link}>
+                      <a 
+                      href={item.link}
+                      className={`text-gray-500 text-lg transition hover:text-gray-500/75 ${noLangPathName == item.link ? active : ""}`}>
+                        {item.title}</a>
+                    </li>
+                  )
+                })}
+              </ul>
+            </nav>
+          </div>
+
+          {/* Menu cho màn hình điện thoại */}
+          <div className={`md:hidden fixed inset-0 flex items-center justify-center bg-white z-40 transition-transform transition-opacity duration-300 ease-in-out ${menuOpen ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform -translate-y-full pointer-events-none'}`}>
+            <nav aria-label="Global">
+              <ul className="flex flex-col items-center gap-6 text-sm">
                 {items.map(item => {
                   return (
                     <li key={item.link}>
@@ -40,8 +62,10 @@ export default function Header({items}) {
             <div>
               <LangSwitcher></LangSwitcher>
             </div>
-            <div className="block md:hidden">
-              <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+            <div className="block md:hidden z-50">
+              <button 
+                onClick={() => setMenuOpen(!menuOpen)} 
+                className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
