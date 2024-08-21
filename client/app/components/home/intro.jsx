@@ -1,4 +1,4 @@
-import img from "@/public/commons/home-introduction.png"
+import img from "@/public/commons/home-introduction.jpg"
 import img2 from "@/public/commons/home-introduction2.jpg"
 import Image from "next/image"
 
@@ -6,19 +6,20 @@ export default function Intro({ dict }) {
     const { about_us } = dict
     return (
         <section>
+            
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 lg:py-24">
                     <div className="relative flex flex-col items-end">
                         <Image 
                             alt="random image"
-                            width={100}
+                            width={1000}
                             height={100}
                             src={img}
                             className="w-full object-cover"
                         ></Image>
                         <Image
                             alt="random image 2"
-                            width={100}
+                            width={500}
                             height={100}
                             src={img2}
                             className="invisible md:visible md:relative md:w-2/5 md:-top-12 md:right-0 "

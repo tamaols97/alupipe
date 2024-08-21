@@ -86,7 +86,7 @@ export default function Manufactures({ dict }) {
 
                                     <div className="relative bg-white pt-3">
                                         <p className="mt-2">
-                                            <span className="tracking-wider text-gray-900 group-hover:text-blue-400">{item.title}</span>
+                                            <span className="tracking-wider font-bold text-gray-900 group-hover:text-blue-400">{item.title}</span>
                                         </p>
                                     </div>
                                 </a>

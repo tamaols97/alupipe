@@ -24,11 +24,11 @@ export default {
                 "link": "/about"
             },
             {
-                "title": "Các dự án",
+                "title": "Dự án",
                 "link": "/projects"
             },
             {
-                "title": "Các sản phẩm",
+                "title": "Sản phẩm",
                 "link": "/products",
                 // "items": [
                 //     {
@@ -200,8 +200,8 @@ export default {
     },
     "homepage": {
         "manufactures": {
-            "sub_title": "Vật liệu độc quyền từ",
-            "title": "Các nhà sản xuất chúng tôi hợp tác",
+            "sub_title": "",
+            "title": "Các nhà sản xuất của ALUPIPE",
             "items": [
                 {
                     "picture": "",
@@ -242,8 +242,8 @@ export default {
             ]
         },
         "customers": {
-            "sub_title": "Khác hàng",
-            "title": "Đã sử dụng ống thép của ALUPIPE"
+            "sub_title": "Khách hàng",
+            "title": "Các đối tác của ALUPIPE"
         },
         "outstanding_projects": {
             "title": "Một số dự án nổi bật",
@@ -676,7 +676,7 @@ Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các
         "title": "Tin tức",
     },
     "product_screen": {
-        "title": "Danh mục các sản phẩm",
+        "title": "Danh mục sản phẩm",
         "title_detail": "Chi tiết sản phẩm",
     },
     catalogs: {
