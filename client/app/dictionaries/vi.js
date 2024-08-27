@@ -30,84 +30,7 @@ export default {
             {
                 "title": "Sản phẩm",
                 "link": "/products",
-                // "items": [
-                //     {
-                //         "title": "ALCOTOP",
-                //         "sub": [
-                //             {
-                //                 "title": "PE-ALCOTOP",
-                //                 "link": "/products/PE-ALCOTOP"
-                //             },
-                //             {
-                //                 "title": "FR-ALCOTOP",
-                //                 "link": "/products/FR-ALCOTOP"
-                //             }
-                //         ]
-                //     },
-                //     {
-                //         "title": "DONG YANG STEEL PIPE",
-                //         "sub": [
-                //             {
-                //                 "title": "STEEL PIPE FOR PIPING",
-                //                 "link": "/products/STELL-PIPE-FOR-PIPING"
-                //             },
-                //             {
-                //                 "title": "STRUCTURAL STEEL PIPE",
-                //                 "link": "/products/STRUCTURAL-STEEL-PIPE"
-                //             },
-                //             {
-                //                 "title": "STEEL PIPE PILE",
-                //                 "link": "/products/STEEL-PIPE-PILE"
-                //             },
-                //             {
-                //                 "title": "SQUARE PIPE",
-                //                 "link": "/products/SQUARE-PIPE"
-                //             },
-                //             {
-                //                 "title": "COATED PIPE",
-                //                 "link": "/products/COATED-PIPE"
-                //             },
-                //             {
-                //                 "title": "HEAT TREATMENT",
-                //                 "link": "/products/HEAT-TREATMENT"
-                //             }
-                //         ]
-                //     },
 
-                //     {
-                //         "title": "PV PIPE",
-                //         "sub": [
-                //             {
-                //                 "title": "STEEL PIPE FOR PIPING",
-                //                 "link": "/products/STELL-PIPE-FOR-PIPING"
-                //             },
-                //             {
-                //                 "title": "STRUCTURAL STEEL PIPE",
-                //                 "link": "/products/STRUCTURAL-STEEL-PIPE"
-                //             },
-                //             {
-                //                 "title": "STEEL PIPE PILE",
-                //                 "link": "/products/STEEL-PIPE-PILE"
-                //             },
-                //             {
-                //                 "title": "SQUARE PIPE",
-                //                 "link": "/products/SQUARE-PIPE"
-                //             },
-                //             {
-                //                 "title": "COATED PIPE",
-                //                 "link": "/products/COATED-PIPE"
-                //             },
-                //             {
-                //                 "title": "HEAT TREATMENT",
-                //                 "link": "/products/HEAT-TREATMENT"
-                //             }
-                //         ]
-                //     },
-                //     {
-                //         "title": "STEEL PIPE HUSTEEL KOREA",
-                //         "link": "/products/STEEL-PIPE-HUSTEEL-KOREA"
-                //     }
-                // ]
             },
             {
                 "title": "Tin tức",
@@ -333,22 +256,6 @@ Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các
         "ALCOTOP": {
             "title": "ALCOTOP",
             "href": "/products/ALCOTOP",
-            "pe": {
-                "title": "ALCOTOP PE",
-                "href": "/products/ALCOTOP-PE",
-                "content": "Tấm ốp nhôm lõi nhựa thương hiệu ALCOTOP đang được tin dùng và sử dụng phổ biến trên thị trường bởi các ưu điểm nổi trội như cách âm, cách nhiệt, khối lượng nhẹ và khả năng gia công hoàn hảo. ",
-                "button": "SEE DETAIL"
-            },
-            "fr": {
-                "title": "ALCOTOP FR",
-                "href": "/products/ALCOTOP-FR",
-                "content": "Tấm ốp nhôm lõi chống cháy thương hiệu ALCOTOP là sự phát triển vượt bậc từ tấm ốp lõi thông thường, với công năng chống cháy, đây là loại tấm ốp đã và đang được tin dùng bởi các công trình quy mô lớn trên thế giới. ",
-                "button": "SEE DETAIL"
-            }
-        },
-        "ALCOTOP_PE": {
-            "title": "PE ALCOTOP",
-            "href": "/products/ALCOTOP-PE",
             "content": `
                 II. Ưu điểm
                 Khả năng chịu nhiệt: gấp 3 lần so với chất liệu làm từ thép
@@ -368,25 +275,47 @@ Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các
                 ]
             }
         },
-        "ALCOTOP_FR": {
-            "title": "FR ALCOTOP",
-            "href": "/products/ALCOTOP-FR",
-            "content": `
-            I. Tấm FR ACP là gì? 
-            Trong những năm gần đây, tại hầu hết các quốc gia tiên tiến và phát triển trên thế giới, tấm FR ACP ngày càng được ưa chuộng và sử dụng rộng rãi bởi tính thẩm mỹ ưu việt và công năng chống cháy cho các công trình có yêu cầu nghiêm ngặt về tuân thủ quy định phòng cháy chữa cháy.
-            Theo đó, cấu tạo của một tấm nhôm chống cháy FR ACP sẽ bao gồm: Ngoài cùng là lớp phim bảo vệ, kế đến là lớp sơn màu, lớp nhôm mặt trên, lớp keo, lõi nhựa chống cháy với thành phần MgO2 , lớp keo và lớp nhôm mặt dưới. 
-            2. Các chứng nhận chống cháy mà FR ACP ALCOTOP đạt được
-            Gần 10 năm phát triển dòng sản phẩm tấm ốp nhôm chống cháy, Alcotop đã đạt được vô số các chứng chỉ khác nhau từ nhiều các đơn vị thử nghiệm uy tín trên thế giới, như chứng chỉ chất lượng iso 9001, chứng chỉ chống cháy NFPA 285 – USA   từ Hoa Kỳ, PSB 2019 PSB – Singapore từ Singapore và tiêu chuẩn Hàn Quốc KS A2 Core test. và các chứng nhận chống cháy của viện IBST Việt nam VN test report
-            `,
-            "catalogs": {
-                "title": "Company Profile & Catalog",
-                "fiels": [
+        // "ALCOTOP_PE": {
+        //     "title": "PE ALCOTOP",
+        //     "href": "/products/ALCOTOP-PE",
+        //     "content": `
+        //         II. Ưu điểm
+        //         Khả năng chịu nhiệt: gấp 3 lần so với chất liệu làm từ thép
+        //         Khả năng tiêu âm cực lớn, giúp chúng ta cảm thấy yên tĩnh hơn trong những ngày mưa gió, không cảm thấy ồn khi trời mưa to như các loại thép hay mái tôn khác.
+        //         Khả năng chống thấm: tính chống ăn mòn của tấm ốp Alcotop cao và có khả năng thích ứng với thời tiết, chịu được tác động ở mức nền nhiệt từ -50 độ C -> 80 độ C.
+        //         Vật liệu nhẹ, bền, dễ thi công: Trọng lượng của tấm được chỉ bằng ½ trọng lượng của tấm nhôm đồng chất cùng bề dày và có độ cứng tương đương lẫn nhau. Dễ dàng cắt hay tạo hình chúng thành những hình dạng khác nhau, phù hợp với nhiều loại kiến trúc hiện đại, cũng chính tính năng này có thể giúp chúng ta dễ dàng thi công như cưa, cắt, khoan lỗ hay uốn cong mà không lo bị bong hay trầy xước tấm nhôm.
+        //         III. Ứng dụng
+        //         Được dùng phổ biến trong các công trình xây dựng kiến trúc cơ bản
+        //         Ứng dụng trong nghành công nghiệp hiện đại
+        //         Dùng trong thiết kế trang trí nội thất ,nhà ở.
+        //         Sản xuất và lắp đặt theo yêu cầu thực tế của Khách hàng            
+        //     `,
+        //     "catalogs": {
+        //         "title": "Company Profile & Catalog",
+        //         "fiels": [
 
-                ]
-            }
-        },
+        //         ]
+        //     }
+        // },
+        // "ALCOTOP_FR": {
+        //     "title": "FR ALCOTOP",
+        //     "href": "/products/ALCOTOP-FR",
+        //     "content": `
+        //     I. Tấm FR ACP là gì? 
+        //     Trong những năm gần đây, tại hầu hết các quốc gia tiên tiến và phát triển trên thế giới, tấm FR ACP ngày càng được ưa chuộng và sử dụng rộng rãi bởi tính thẩm mỹ ưu việt và công năng chống cháy cho các công trình có yêu cầu nghiêm ngặt về tuân thủ quy định phòng cháy chữa cháy.
+        //     Theo đó, cấu tạo của một tấm nhôm chống cháy FR ACP sẽ bao gồm: Ngoài cùng là lớp phim bảo vệ, kế đến là lớp sơn màu, lớp nhôm mặt trên, lớp keo, lõi nhựa chống cháy với thành phần MgO2 , lớp keo và lớp nhôm mặt dưới. 
+        //     2. Các chứng nhận chống cháy mà FR ACP ALCOTOP đạt được
+        //     Gần 10 năm phát triển dòng sản phẩm tấm ốp nhôm chống cháy, Alcotop đã đạt được vô số các chứng chỉ khác nhau từ nhiều các đơn vị thử nghiệm uy tín trên thế giới, như chứng chỉ chất lượng iso 9001, chứng chỉ chống cháy NFPA 285 – USA   từ Hoa Kỳ, PSB 2019 PSB – Singapore từ Singapore và tiêu chuẩn Hàn Quốc KS A2 Core test. và các chứng nhận chống cháy của viện IBST Việt nam VN test report
+        //     `,
+        //     "catalogs": {
+        //         "title": "Company Profile & Catalog",
+        //         "fiels": [
+
+        //         ]
+        //     }
+        // },
         "STEEL_PIPE_FOR_PIPING": {
-            "title": "STEEL PIPE FOR PIPING",
+            "title": "DONGYANG",
             "href": "/products/STEEL-PIPE-FOR-PIPING",
             "content": `
             Product features
@@ -405,84 +334,84 @@ Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các
                 ]
             }
         },
-        "STRUCTURAL_FOR_STEEL_PIPE": {
-            "title": "STRUCTURAL STEEL PIPE",
-            "href": "/products/STRUCTURAL-FOR-STEEL-PIPE",
-            "content": `
-            Product features
+        // "STRUCTURAL_FOR_STEEL_PIPE": {
+        //     "title": "STRUCTURAL STEEL PIPE",
+        //     "href": "/products/STRUCTURAL-FOR-STEEL-PIPE",
+        //     "content": `
+        //     Product features
 
-            Structural steel pipe (API 2B / EN10219)
-            Heavy wall steel pipe / General structural purpose
-            Heavy wall steel pipe / General structural purpose
-            Excellent physical properties
-            Multi-variety production
-            Used for oil & gas line, offshore structures, plants, shipbuilding, building structures and etc.            
-            `,
-            "catalogs": {
-                "title": "Company Profile & Catalog",
-                "fiels": [
+        //     Structural steel pipe (API 2B / EN10219)
+        //     Heavy wall steel pipe / General structural purpose
+        //     Heavy wall steel pipe / General structural purpose
+        //     Excellent physical properties
+        //     Multi-variety production
+        //     Used for oil & gas line, offshore structures, plants, shipbuilding, building structures and etc.            
+        //     `,
+        //     "catalogs": {
+        //         "title": "Company Profile & Catalog",
+        //         "fiels": [
 
-                ]
-            }
-        },
-        "STEEL_PIPE_PILE": {
-            "title": "STEEL PIPE PILE",
-            "href": "/products/STEEL-PIPE-PILE",
-            "content": `
-            Product features
+        //         ]
+        //     }
+        // },
+        // "STEEL_PIPE_PILE": {
+        //     "title": "STEEL PIPE PILE",
+        //     "href": "/products/STEEL-PIPE-PILE",
+        //     "content": `
+        //     Product features
 
-            Steel pipe piles (KS F 4602, JIS A 5525)
-            Used for foundation pile for harbor construction, civil engineering, building structure and etc.
-            Large bearing capacity, lateral load resistance and penetration capacity
-            Reasonable designs and long pile construction are available.
-            The volume of soil displaced during the driving is less.
-            Easy tranporation, handling and splicing            
-            `,
-            "catalogs": {
-                "title": "Company Profile & Catalog",
-                "fiels": [
+        //     Steel pipe piles (KS F 4602, JIS A 5525)
+        //     Used for foundation pile for harbor construction, civil engineering, building structure and etc.
+        //     Large bearing capacity, lateral load resistance and penetration capacity
+        //     Reasonable designs and long pile construction are available.
+        //     The volume of soil displaced during the driving is less.
+        //     Easy tranporation, handling and splicing            
+        //     `,
+        //     "catalogs": {
+        //         "title": "Company Profile & Catalog",
+        //         "fiels": [
 
-                ]
-            }
-        },
-        "SQUARE_PIPE": {
-            "title": "SQUARE PIPE",
-            "href": "/products/SQUARE-PIPE",
-            "content": `
-            Product features
+        //         ]
+        //     }
+        // },
+        // "SQUARE_PIPE": {
+        //     "title": "SQUARE PIPE",
+        //     "href": "/products/SQUARE-PIPE",
+        //     "content": `
+        //     Product features
 
-            Square steel pipe (JIS G 3466)
-            Cold formed square steel pipe for general structure / building structure
-            Excellent earthquake resistance and plastic deformation capacity
-            Easier to design than H-beam / Better use of space than circular steel pipe            
-            `
-        },
-        "HEAT_TREATMENT": {
-            "title": "HEAT TREATMENT",
-            "href": "/products/HEAT-TREATMENT",
-            "content": `
-            Product features
+        //     Square steel pipe (JIS G 3466)
+        //     Cold formed square steel pipe for general structure / building structure
+        //     Excellent earthquake resistance and plastic deformation capacity
+        //     Easier to design than H-beam / Better use of space than circular steel pipe            
+        //     `
+        // },
+        // "HEAT_TREATMENT": {
+        //     "title": "HEAT TREATMENT",
+        //     "href": "/products/HEAT-TREATMENT",
+        //     "content": `
+        //     Product features
 
-            PWHT / Normalizing
-            Heat treatment facility
-            Temperature range 600 ~ 1,000℃ / Suitable for large diameter steel pipes
-            Anti-deformation process            
-            `
-        },
-        "COATED_PIPE": {
-            "title": "COATED PIPE",
-            "href": "/products/COATED-PIPE",
-            "content": `
-            Product features
+        //     PWHT / Normalizing
+        //     Heat treatment facility
+        //     Temperature range 600 ~ 1,000℃ / Suitable for large diameter steel pipes
+        //     Anti-deformation process            
+        //     `
+        // },
+        // "COATED_PIPE": {
+        //     "title": "COATED PIPE",
+        //     "href": "/products/COATED-PIPE",
+        //     "content": `
+        //     Product features
 
-            Coated pipe (KS D 3565, KS D 3589, DIN 30670)
-            Coated pipe for waterworks / oil & gas
-            External – Extruded 3 layer P.E. (P.P.) coating / Anti-slip / F.B.E. coating
-            Internal – Liquid epoxy / polyurethane (polyurea) coating            
-            `
-        },
+        //     Coated pipe (KS D 3565, KS D 3589, DIN 30670)
+        //     Coated pipe for waterworks / oil & gas
+        //     External – Extruded 3 layer P.E. (P.P.) coating / Anti-slip / F.B.E. coating
+        //     Internal – Liquid epoxy / polyurethane (polyurea) coating            
+        //     `
+        // },
         "STEEL_HUSTEEL_KOREA": {
-            "title": "STEEL PIPE HUSTEEL KOREA",
+            "title": "HUSTEEL",
             "href": "/products/STEEL-HUSTEEL-KOREA",
             "content": `
             ỐNG THÉP HUSTEEL HÀN QUỐC
@@ -518,7 +447,7 @@ Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các
 
         },
         "PV_PIPE_1": {
-            "title": "Ống thép hàn thẳng hồ quang chìm",
+            "title": "PV PIPE",
             "href": "/products/PV-PIPE-1",
             "content": `
             Ống thép hàn thẳng hồ quang chìm
@@ -569,108 +498,108 @@ Công ty TNHH ALUPIPE là nhà sản xuất và phân phối độc quyền các
             Quy cách kỹ thuật khác của khách hàng            
             `
         },
-        "PV_PIPE_2": {
-            "title": "Chế tạo cấu kiện cho nghành dầu khí",
-            "href": "/products/PV-PIPE-2",
-            "content": `
-            Chế tạo cấu kiện cho ngành dầu khí
-            PV PIPE chế tạo các phụ kiện được sử dụng trong ngành Dầu khí dựa trên yêu cầu của khách hàng.            
-            `
-        },
-        "PV_PIPE_3": {
-            "title": "Thi công lắp đặt thiết bị trong nghành dầu khí",
-            "href": "/products/PV-PIPE-3",
-            "content": `
-            Thi công lắp đặt thiết bị trong ngành dầu khí
-            Chúng tôi luôn tự hào về nguồn nhân lực với những nhân viên sáng tạo, được đào tạo bài bản. PV PIPE có đội ngũ quản lý và kỹ sư chuyên môn cao, công nhân lành nghề, nhiều kinh nghiệm, đảm bảo khả năng chế tạo, thi công lắp đặt các thiết bị trong ngành dầu khí như các kết cấu và phụ tùng Skid, Platfom, Khung kết cấu, Spool, …            
-            `
-        },
-        "PV_PIPE_4": {
-            "title": "Dịch vụ cung cấp thép tấm",
-            "href": "/products/PV-PIPE-4",
-            "content": `
-            Dịch vụ cung cấp thép tấm
-            PV PIPE có khả năng cung cấp thép tấm đa chủng loại, từ loại thép thông thường đến thép có độ bền cao, đáp ứng yêu cầu của các quy cách kỹ thuật/ tiêu chuẩn:
-            API 5L
-            API 2B
-            JIS (A 5525/ A 5530/ G 3444/ G3443-1, …)
-            ASTM (A671/ A672/ A691/ A134/ A139/ A252/ A671/ A672, …)
-            ANSI/ AWWA C200
-            BS EN 10219-1
-            Thép tấm luôn được giữ trong tình trạng tốt nhằm tránh các nguyên nhân có thể gây hại như thời tiết hay va chạm, … Với chủng loại sản phẩm và nguồn hàng đa dạng trong và ngoài nước, khả năng gia công cao, PV PIPE đảm bảo thép tấm được cung cấp với kích thước và chất lượng theo đúng yêu cầu của khách hàng.            
-            `
-        },
-        "PV_PIPE_5": {
-            "title": "Dịch vụ hàn",
-            "href": "/products/PV-PIPE-5",
-            "content": `
-            Dịch vụ hàn
-            Luôn luôn đặt mục tiêu chất lượng lên hàng đầu, PV PIPE cam kết cung cấp dịch vụ hàn với chất lượng tốt nhất cho các ngành công nghiệp nặng khác nhau. Với máy móc thiết bị hiện đại đi cùng quy trình hàn và đội ngũ nhân sự chuyên nghiệp, dịch vụ hàn của PV PIPE đáp ứng hoàn toàn các yêu cầu của khách hàng và tiêu chuẩn áp dụng như AWS D1.1, ASME IX, API 5L, …
+        // "PV_PIPE_2": {
+        //     "title": "Chế tạo cấu kiện cho nghành dầu khí",
+        //     "href": "/products/PV-PIPE-2",
+        //     "content": `
+        //     Chế tạo cấu kiện cho ngành dầu khí
+        //     PV PIPE chế tạo các phụ kiện được sử dụng trong ngành Dầu khí dựa trên yêu cầu của khách hàng.            
+        //     `
+        // },
+        // "PV_PIPE_3": {
+        //     "title": "Thi công lắp đặt thiết bị trong nghành dầu khí",
+        //     "href": "/products/PV-PIPE-3",
+        //     "content": `
+        //     Thi công lắp đặt thiết bị trong ngành dầu khí
+        //     Chúng tôi luôn tự hào về nguồn nhân lực với những nhân viên sáng tạo, được đào tạo bài bản. PV PIPE có đội ngũ quản lý và kỹ sư chuyên môn cao, công nhân lành nghề, nhiều kinh nghiệm, đảm bảo khả năng chế tạo, thi công lắp đặt các thiết bị trong ngành dầu khí như các kết cấu và phụ tùng Skid, Platfom, Khung kết cấu, Spool, …            
+        //     `
+        // },
+        // "PV_PIPE_4": {
+        //     "title": "Dịch vụ cung cấp thép tấm",
+        //     "href": "/products/PV-PIPE-4",
+        //     "content": `
+        //     Dịch vụ cung cấp thép tấm
+        //     PV PIPE có khả năng cung cấp thép tấm đa chủng loại, từ loại thép thông thường đến thép có độ bền cao, đáp ứng yêu cầu của các quy cách kỹ thuật/ tiêu chuẩn:
+        //     API 5L
+        //     API 2B
+        //     JIS (A 5525/ A 5530/ G 3444/ G3443-1, …)
+        //     ASTM (A671/ A672/ A691/ A134/ A139/ A252/ A671/ A672, …)
+        //     ANSI/ AWWA C200
+        //     BS EN 10219-1
+        //     Thép tấm luôn được giữ trong tình trạng tốt nhằm tránh các nguyên nhân có thể gây hại như thời tiết hay va chạm, … Với chủng loại sản phẩm và nguồn hàng đa dạng trong và ngoài nước, khả năng gia công cao, PV PIPE đảm bảo thép tấm được cung cấp với kích thước và chất lượng theo đúng yêu cầu của khách hàng.            
+        //     `
+        // },
+        // "PV_PIPE_5": {
+        //     "title": "Dịch vụ hàn",
+        //     "href": "/products/PV-PIPE-5",
+        //     "content": `
+        //     Dịch vụ hàn
+        //     Luôn luôn đặt mục tiêu chất lượng lên hàng đầu, PV PIPE cam kết cung cấp dịch vụ hàn với chất lượng tốt nhất cho các ngành công nghiệp nặng khác nhau. Với máy móc thiết bị hiện đại đi cùng quy trình hàn và đội ngũ nhân sự chuyên nghiệp, dịch vụ hàn của PV PIPE đáp ứng hoàn toàn các yêu cầu của khách hàng và tiêu chuẩn áp dụng như AWS D1.1, ASME IX, API 5L, …
             
-            PHƯƠNG PHÁP HÀN:
+        //     PHƯƠNG PHÁP HÀN:
             
-            Hàn hồ quang chìm (SAW)
-            Hàn hồ quang tay (SMAW)
-            Hàn hồ quang bằng điện cực không nóng chảy (tungsten) trong môi trường khí bảo vệ (TIG)
-            Hàn hồ quang kim loại trong môi trường khí bảo vệ MIG/MAG (GMAW)
+        //     Hàn hồ quang chìm (SAW)
+        //     Hàn hồ quang tay (SMAW)
+        //     Hàn hồ quang bằng điện cực không nóng chảy (tungsten) trong môi trường khí bảo vệ (TIG)
+        //     Hàn hồ quang kim loại trong môi trường khí bảo vệ MIG/MAG (GMAW)
             
-            ÁP DỤNG:
+        //     ÁP DỤNG:
             
-            Hàn ống dùng cho ống bờ/ ống biển
-            Hàn kết cấu
-            Hàn ống công nghệ
-            Hàn các thiết bị phụ tùng (Mối nối chữ T, chữ thập, Co nối, …)
-            Dùng trong công nghiệp đóng tàu, kết cấu thép            
-            `
-        },
-        "PV_PIPE_6": {
-            "title": "PV-PIPE-6",
-            "href": "/products/PV-PIPE-6",
-            "content": `
-            Dịch vụ kiểm tra cơ hóa tính
+        //     Hàn ống dùng cho ống bờ/ ống biển
+        //     Hàn kết cấu
+        //     Hàn ống công nghệ
+        //     Hàn các thiết bị phụ tùng (Mối nối chữ T, chữ thập, Co nối, …)
+        //     Dùng trong công nghiệp đóng tàu, kết cấu thép            
+        //     `
+        // },
+        // "PV_PIPE_6": {
+        //     "title": "PV-PIPE-6",
+        //     "href": "/products/PV-PIPE-6",
+        //     "content": `
+        //     Dịch vụ kiểm tra cơ hóa tính
  
 
-            Phòng thí nghiệm được trang bị công nghệ và thiết bị hiện đại, cung cấp các dịch vụ thử nghiệm và đánh giá tính phù hợp so với các quy cách kỹ thuật/ tiêu chuẩn áp dụng. Hệ thống quản lý phòng thử nghiệm phù hợp hoàn toàn với API Q1, ISO 9001.
+        //     Phòng thí nghiệm được trang bị công nghệ và thiết bị hiện đại, cung cấp các dịch vụ thử nghiệm và đánh giá tính phù hợp so với các quy cách kỹ thuật/ tiêu chuẩn áp dụng. Hệ thống quản lý phòng thử nghiệm phù hợp hoàn toàn với API Q1, ISO 9001.
             
-            DỊCH VỤ KIỂM TRA CƠ HOÁ TÍNH:
+        //     DỊCH VỤ KIỂM TRA CƠ HOÁ TÍNH:
             
-            Thử thành phần hóa học kim loại
-            Thử kéo
-            Thử độ xé vật rơi (DWT)
-            Thử va đập Charpy (CVN)
-            Thử độ cứng Vicker
-            Thử uốn
-            Chụp ảnh cấu trúc thô đại vật liệu
-            Chụp ảnh cấu trúc tế vi vật liệu
-            ÁP DỤNG:
+        //     Thử thành phần hóa học kim loại
+        //     Thử kéo
+        //     Thử độ xé vật rơi (DWT)
+        //     Thử va đập Charpy (CVN)
+        //     Thử độ cứng Vicker
+        //     Thử uốn
+        //     Chụp ảnh cấu trúc thô đại vật liệu
+        //     Chụp ảnh cấu trúc tế vi vật liệu
+        //     ÁP DỤNG:
             
-            Kiểm tra cơ hóa tính đối với các thép tấm, thép ống
-            Kiểm tra cơ hóa tính đối với kim loại cơ bản và mối hàn            
-            `
-        },
-        "PV_PIPE_7": {
-            "title": "Dịch vụ kiểm tra không phá huỷ",
-            "href": "/products/PV-PIPE-7",
-            "content": `
-            Dịch vụ kiểm tra không phá hủy
+        //     Kiểm tra cơ hóa tính đối với các thép tấm, thép ống
+        //     Kiểm tra cơ hóa tính đối với kim loại cơ bản và mối hàn            
+        //     `
+        // },
+        // "PV_PIPE_7": {
+        //     "title": "Dịch vụ kiểm tra không phá huỷ",
+        //     "href": "/products/PV-PIPE-7",
+        //     "content": `
+        //     Dịch vụ kiểm tra không phá hủy
  
 
-            PV PIPE cung cấp dịch vụ kiểm tra không phá hủy tự động và thủ công với chất lượng đạt yêu cầu của tiêu chuẩn API 5L, API 2B, AWS D.1.1. Cùng với đội ngũ nhân sự có chuyên môn cao và thiết bị hiện đại, PV PIPE sẵn sàng đáp ứng mọi nhu cầu của khách hàng một cách hiệu quả nhất.
+        //     PV PIPE cung cấp dịch vụ kiểm tra không phá hủy tự động và thủ công với chất lượng đạt yêu cầu của tiêu chuẩn API 5L, API 2B, AWS D.1.1. Cùng với đội ngũ nhân sự có chuyên môn cao và thiết bị hiện đại, PV PIPE sẵn sàng đáp ứng mọi nhu cầu của khách hàng một cách hiệu quả nhất.
             
-            DỊCH VỤ KIỂM TRA KHÔNG PHÁ HỦY:
+        //     DỊCH VỤ KIỂM TRA KHÔNG PHÁ HỦY:
             
-            Kiểm tra bằng phương pháp siêu âm thủ công
-            Kiểm tra bằng phương pháp siêu âm tự động
-            Kiểm tra bằng phương pháp chụp ảnh phóng xạ tự động
-            Kiểm tra bằng phương pháp từ tính
-            Kiểm tra bằng ngoại quan
-            ÁP DỤNG:
+        //     Kiểm tra bằng phương pháp siêu âm thủ công
+        //     Kiểm tra bằng phương pháp siêu âm tự động
+        //     Kiểm tra bằng phương pháp chụp ảnh phóng xạ tự động
+        //     Kiểm tra bằng phương pháp từ tính
+        //     Kiểm tra bằng ngoại quan
+        //     ÁP DỤNG:
             
-            Kiểm tra thép tấm
-            Kiểm tra ống thép
-            Kiểm tra kết cấu trong nghành công nghiệp dầu khí            
-            `
-        }
+        //     Kiểm tra thép tấm
+        //     Kiểm tra ống thép
+        //     Kiểm tra kết cấu trong nghành công nghiệp dầu khí            
+        //     `
+        // }
     },
     "news": {
         "title": "Tin tức",

@@ -1,14 +1,19 @@
-import SubHero from "@/app/components/commons/sub_hero"
-import Breadcrumbs from "../../components/commons/breadcrumbs"
-import { getDictionary } from "../dictionaries"
+"use client";
 
+import { useState } from 'react';
+import NewsList from './NewsList';
+import NewsDetail from './NewsDetail';
 
-export default async function News({params: {lang}}) {
-    const { news } = await getDictionary(lang)
-    return <section>
-        <SubHero title={news.title}></SubHero>
-        <div className="mx-auto max-w-screen-xl px-4 py-4 lg:px-8 lg:py-8">
-            <Breadcrumbs></Breadcrumbs>
-        </div>
+export default function NewsPage({ params: { lang } }) {
+  const [currentArticle, setCurrentArticle] = useState(null);
+
+  return (
+    <section>
+      {currentArticle ? (
+        <NewsDetail article={currentArticle} onBack={() => setCurrentArticle(null)} />
+      ) : (
+        <NewsList lang={lang} onArticleClick={(article) => setCurrentArticle(article)} />
+      )}
     </section>
+  );
 }

@@ -23,14 +23,14 @@ export default function Breadcumbs() {
   const paths = generateBreadcrumbs()
   return (
     <nav aria-label="Breadcrumb">
-      <ol className="flex items-center gap-1 text-md text-gray-600">
+      <ol className="flex items-center gap-1 text-xs text-gray-600">
         <li>
           <a href="/" className="block transition hover:text-gray-700">
             <span className="sr-only"> Home </span>
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="h-4"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -56,9 +56,9 @@ export default function Breadcumbs() {
                   fill="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
               </li>

@@ -18,15 +18,6 @@ export default async function RootLayout({ children, params: { lang } }) {
     <html lang={lang}>
       <body className={`${inter.className} selection:bg-fuchsia-300 selection:text-fuchsia-900`}>
         <Header items={header.menu} />
-        {/* <div className="fixed z-50 mt-20 right-2 bg-white pl-4 rounded-xl px-5 py-2 hidden md:block"
-        style={{ boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px' }}
-        >
-          <h2 className="font-medium">Thông tin liên hệ</h2>
-          <Image className="w-10 rounded-full my-2" src={avatar} alt="Avatar of Mr Đạt" />
-          <p className="text-xs">Mr Đạt – GENERAL DIRECTOR</p>
-          <p className="text-xs my-1">Phone: +84 857 489 576</p>
-          <p className="text-xs">Gmail: dattt@alupipe.com.vn</p>
-        </div> */}
         {children}
         <Footer lang={lang} />
       </body>
